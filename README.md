@@ -12,8 +12,8 @@ repository.
 This release is intentionally separate from the full research workspace. The
 workspace contains exploratory analyses, intermediate predictions, historical
 runs, and files that are not needed for the submitted paper. This package
-contains only the paper-facing code, configuration, frozen target data,
-compact results, and final figures.
+contains only the paper-facing code, configuration, frozen target data, and
+reproduction scripts.
 
 Obsolete exploratory scripts, post hoc analyses not reported in the manuscript,
 profiling utilities, and regenerable feature caches are excluded. The retained
@@ -35,10 +35,13 @@ or Supporting Information.
 ## Scope
 
 This is a release package for the manuscript, not a copy of the entire
-historical workspace. Large prediction files, model checkpoints, raw external
-datasets, temporary files, manuscript DOCX files, and obsolete experiments are
-intentionally omitted. Final manuscript figures are maintained in the separate
-submission package; figure-drawing scripts are not part of this release.
+historical workspace. Large prediction files, raw external datasets, temporary
+files, manuscript DOCX files, and obsolete experiments are intentionally
+omitted. Final manuscript figures are maintained in the separate submission
+package; figure-drawing scripts are not part of this release.
+
+GNN checkpoints are not included in this release; all reported numerical
+results were generated from the recorded configurations and random seeds.
 
 ## Data provenance
 
