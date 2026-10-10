@@ -1,0 +1,30 @@
+
+slug: hdac1
+name: "Histone deacetylase 1"
+chembl_target_id: CHEMBL325
+uniprot: null
+
+endpoint: IC50
+label_column: pchembl_mean
+
+source: chembl_export
+
+paths:
+  chembl_export: data/chembl_exports/hdac1.csv
+  curated_csv: null
+
+curation:
+  assay_types: [B]
+  require_exact_relation: true
+  max_pchembl_std: 1.0
+  min_observations: 1
+  organism: "Homo sapiens"
+  drop_validity_flagged: true
+  exclude_assay_regex: null
+
+cutpoints: [2019, 2020, 2021, 2022, 2023, 2024]
+
+protein_sequence: null
+
+notes: |
+  Target-specific curation metadata.

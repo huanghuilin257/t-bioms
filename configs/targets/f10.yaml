@@ -1,0 +1,30 @@
+
+slug: f10
+name: "Coagulation factor X (factor Xa)"
+chembl_target_id: CHEMBL244
+uniprot: null
+
+endpoint: Ki
+label_column: pchembl_mean
+
+source: chembl_export
+
+paths:
+  chembl_export: data/chembl_exports/f10.csv
+  curated_csv: null
+
+curation:
+  assay_types: [B]
+  require_exact_relation: true
+  max_pchembl_std: 1.0
+  min_observations: 1
+  organism: "Homo sapiens"
+  drop_validity_flagged: true
+  exclude_assay_regex: null
+
+cutpoints: [2009, 2010, 2011, 2012, 2013, 2014, 2015]
+
+protein_sequence: null
+
+notes: |
+  Target-specific curation metadata.

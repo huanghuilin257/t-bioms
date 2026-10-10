@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or frozen data, please cite the associated JCAMD manuscript."
+title: "Reproducibility package for Model Selection against Uniform Random Selection in a 20-Target Temporal Bioactivity Benchmark"
+authors:
+  - family-names: Huang
+    given-names: Huilin
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/huanghuilin257/t-bioms"

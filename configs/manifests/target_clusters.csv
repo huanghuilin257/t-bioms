@@ -1,0 +1,71 @@
+slug,role,cluster_fine,cluster_coarse,basis
+dpp4,dropped_no_cutpoint,dpp,protease,single-target cluster
+trpv1_rat,dropped_no_cutpoint,trpv,ion_channel,TRPV1 human/mouse
+hcv_ns3,dropped_no_cutpoint,viral_protease,protease,viral protease HCV NS3 / HIV-1 PR 
+hiv1_pr,dropped_no_cutpoint,viral_protease,protease,viral protease HCV NS3 / HIV-1 PR 
+adora2a,frozen20,adenosine_r,gpcr,adenosine receptor subtype
+bace1,frozen20,aspartyl_protease,enzyme,single-target cluster
+ache,frozen20,cholinesterase,enzyme,single-target cluster
+drd2,frozen20,dopamine_r,gpcr,dopamine receptor subtype
+esr1,frozen20,estrogen_r,nuclear_receptor,single-target cluster
+hdac1,frozen20,hdac,enzyme,single-target cluster
+kcnh2,frozen20,herg,ion_channel,single-target cluster
+abl1,frozen20,kinase_abl,kinase,single-target cluster
+egfr,frozen20,kinase_egfr,kinase,single-target cluster
+pik3ca,frozen20,kinase_pi3k,kinase,single-target cluster
+kdr,frozen20,kinase_vegfr,kinase,single-target cluster
+oprm1,frozen20,opioid_r,gpcr,μ/δ/κ/nociceptin opioid receptor subtype
+ppara,frozen20,ppar,nuclear_receptor,PPARα/δ/γ same receptor subfamily
+ppard,frozen20,ppar,nuclear_receptor,PPARα/δ/γ same receptor subfamily
+pparg,frozen20,ppar,nuclear_receptor,PPARα/δ/γ same receptor subfamily
+f10,frozen20,s1_protease,protease,/Xa/XI/ trypsin-like S1 serine proteases
+f2,frozen20,s1_protease,protease,/Xa/XI/ trypsin-like S1 serine proteases
+htr2a,frozen20,serotonin_r,gpcr,5-HT receptor subtype
+ar,frozen20,steroid_r_3keto,nuclear_receptor,AR  GR  3- shared steroid ligand scaffold
+nr3c1,frozen20,steroid_r_3keto,nuclear_receptor,AR  GR  3- shared steroid ligand scaffold
+adra1d,holdout_batch1,adrenergic_r,gpcr,adrenergic receptor α1b/α1d/β2 
+drd3,holdout_batch1,dopamine_r,gpcr,dopamine receptor subtype
+hrh4,holdout_batch1,histamine_r,gpcr,receptor subtype
+mtnr1a,holdout_batch1,melatonin_r,gpcr,MT1A/MT1B
+slc6a3,holdout_batch1,monoamine_transporter,transporter,single-target cluster
+htr1a,holdout_batch1,serotonin_r,gpcr,5-HT receptor subtype
+htr6,holdout_batch1,serotonin_r,gpcr,5-HT receptor subtype
+trpv1,holdout_batch1,trpv,ion_channel,TRPV1 human/mouse
+adora2b,holdout_batch2,adenosine_r,gpcr,adenosine receptor subtype
+adra1b,holdout_batch2,adrenergic_r,gpcr,adrenergic receptor α1b/α1d/β2 
+adrb2,holdout_batch2,adrenergic_r,gpcr,adrenergic receptor α1b/α1d/β2 
+bcl2,holdout_batch2,bcl2,other,single-target cluster
+cnr1,holdout_batch2,cannabinoid_r,gpcr,CB1/CB2
+cnr2,holdout_batch2,cannabinoid_r,gpcr,CB1/CB2
+ca14,holdout_batch2,carbonic_anhydrase,enzyme,carbonic anhydrase isoforms
+ca4,holdout_batch2,carbonic_anhydrase,enzyme,carbonic anhydrase isoforms
+ca7,holdout_batch2,carbonic_anhydrase,enzyme,carbonic anhydrase isoforms
+crhr1,holdout_batch2,crf_r,gpcr,single-target cluster
+ctsl,holdout_batch2,cysteine_protease,protease, L/S
+ctss,holdout_batch2,cysteine_protease,protease, L/S
+drd1,holdout_batch2,dopamine_r,gpcr,dopamine receptor subtype
+gabra5,holdout_batch2,gaba_a,ion_channel,single-target cluster
+ghsr,holdout_batch2,ghrelin_r,gpcr,single-target cluster
+hrh1,holdout_batch2,histamine_r,gpcr,receptor subtype
+hrh3,holdout_batch2,histamine_r,gpcr,receptor subtype
+lrrk2,holdout_batch2,kinase_lrrk2,kinase,single-target cluster
+map3k12,holdout_batch2,kinase_map3k,kinase,single-target cluster
+mc4r,holdout_batch2,melanocortin_r,gpcr,single-target cluster
+mtnr1b,holdout_batch2,melatonin_r,gpcr,MT1A/MT1B
+grm5,holdout_batch2,mglur,gpcr,single-target cluster
+chrm1,holdout_batch2,muscarinic_r,gpcr, M1–M5
+chrm2,holdout_batch2,muscarinic_r,gpcr, M1–M5
+chrm3,holdout_batch2,muscarinic_r,gpcr, M1–M5
+chrm4,holdout_batch2,muscarinic_r,gpcr, M1–M5
+chrm5,holdout_batch2,muscarinic_r,gpcr, M1–M5
+chrna7,holdout_batch2,nachr,ion_channel,single-target cluster
+oprd1,holdout_batch2,opioid_r,gpcr,μ/δ/κ/nociceptin opioid receptor subtype
+oprk1,holdout_batch2,opioid_r,gpcr,μ/δ/κ/nociceptin opioid receptor subtype
+oprl1,holdout_batch2,opioid_r,gpcr,μ/δ/κ/nociceptin opioid receptor subtype
+ptgdr2,holdout_batch2,prostanoid_r,gpcr,single-target cluster
+f11,holdout_batch2,s1_protease,protease,/Xa/XI/ trypsin-like S1 serine proteases
+prss1_bovine,holdout_batch2,s1_protease,protease,/Xa/XI/ trypsin-like S1 serine proteases
+htr7,holdout_batch2,serotonin_r,gpcr,5-HT receptor subtype
+sigmar1,holdout_batch2,sigma_r,other,σ1/σ2 
+tmem97_rat,holdout_batch2,sigma_r,other,σ1/σ2 
+avpr1a,holdout_batch2,vasopressin_r,gpcr,single-target cluster

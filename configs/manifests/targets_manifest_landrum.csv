@@ -1,0 +1,52 @@
+slug,chembl_id,endpoint,assay_types,family,name,organism,n_mols_chembl32,landrum_dataset_id
+hcv_ns3,CHEMBL1293269,Ki,B,protease,HCV NS3 protease,Hepatitis C virus,300,CHEMBL1293269-1
+mtnr1a,CHEMBL1945,Ki,B,gpcr,Melatonin receptor 1A,Homo sapiens,507,CHEMBL1945-1
+htr1a,CHEMBL214,Ki,B,gpcr,Serotonin 1a (5-HT1a) receptor,Homo sapiens,837,CHEMBL214-1
+adra1d,CHEMBL223,Ki,B,gpcr,Alpha-1d adrenergic receptor,Homo sapiens,358,CHEMBL223-1
+drd3,CHEMBL234,Ki,B,gpcr,Dopamine D3 receptor,Homo sapiens,640,CHEMBL234-1
+hiv1_pr,CHEMBL2366517,Ki,B,protease,HIV-1 protease,Human immunodeficiency virus 1,467,CHEMBL2366517-1
+slc6a3,CHEMBL238,Ki,B,transporter,Dopamine transporter,Homo sapiens,592,CHEMBL238-1
+dpp4,CHEMBL284,Ki,B,protease,Dipeptidyl peptidase IV,Homo sapiens,351,CHEMBL284-1
+htr6,CHEMBL3371,Ki,B,gpcr,Serotonin 6 (5-HT6) receptor,Homo sapiens,476,CHEMBL3371-1
+hrh4,CHEMBL3759,Ki,B,gpcr,Histamine H4 receptor,Homo sapiens,732,CHEMBL3759-1
+trpv1,CHEMBL4794,Ki,B,ion_channel,Vanilloid receptor (human),Homo sapiens,686,CHEMBL4794-1
+trpv1_rat,CHEMBL5102,Ki,B,ion_channel,Vanilloid receptor (rat),Rattus norvegicus,348,CHEMBL5102-1
+
+lrrk2,CHEMBL1075104,Ki,B,kinase,"Leucine-rich repeat serine/threonine-protein kinase 2",Homo sapiens,442,CHEMBL1075104-1
+crhr1,CHEMBL1800,Ki,B,gpcr,"Corticotropin releasing factor receptor 1",Homo sapiens,518,CHEMBL1800-1
+chrm4,CHEMBL1821,Ki,B,gpcr,"Muscarinic acetylcholine receptor M4",Homo sapiens,308,CHEMBL1821-1
+avpr1a,CHEMBL1889,Ki,B,gpcr,"Vasopressin V1a receptor",Homo sapiens,431,CHEMBL1889-1
+map3k12,CHEMBL1908389,Ki,B,kinase,"Mitogen-activated protein kinase kinase kinase 12",Homo sapiens,630,CHEMBL1908389-1
+mtnr1b,CHEMBL1946,Ki,B,gpcr,"Melatonin receptor 1B",Homo sapiens,505,CHEMBL1946-1
+oprl1,CHEMBL2014,Ki,B,gpcr,"Nociceptin receptor",Homo sapiens,749,CHEMBL2014-1
+chrm5,CHEMBL2035,Ki,B,gpcr,"Muscarinic acetylcholine receptor M5",Homo sapiens,346,CHEMBL2035-1
+drd1,CHEMBL2056,Ki,B,gpcr,"Dopamine D1 receptor",Homo sapiens,443,CHEMBL2056-1
+adrb2,CHEMBL210,Ki,B,gpcr,"Beta-2 adrenergic receptor",Homo sapiens,333,CHEMBL210-1
+chrm2,CHEMBL211,Ki,B,gpcr,"Muscarinic acetylcholine receptor M2",Homo sapiens,485,CHEMBL211-1
+chrm1,CHEMBL216,Ki,B,gpcr,"Muscarinic acetylcholine receptor M1",Homo sapiens,480,CHEMBL216-1
+cnr1,CHEMBL218,Ki,B,gpcr,"Cannabinoid CB1 receptor",Homo sapiens,543,CHEMBL218-1
+hrh1,CHEMBL231,Ki,B,gpcr,"Histamine H1 receptor",Homo sapiens,350,CHEMBL231-1
+adra1b,CHEMBL232,Ki,B,gpcr,"Alpha-1b adrenergic receptor",Homo sapiens,316,CHEMBL232-1
+ca7,CHEMBL2326,Ki,B,enzyme,"Carbonic anhydrase VII",Homo sapiens,397,CHEMBL2326-1
+oprd1,CHEMBL236,Ki,B,gpcr,"Delta opioid receptor",Homo sapiens,397,CHEMBL236-1
+oprk1,CHEMBL237,Ki,B,gpcr,"Kappa opioid receptor",Homo sapiens,374,CHEMBL237-1
+chrm3,CHEMBL245,Ki,B,gpcr,"Muscarinic acetylcholine receptor M3",Homo sapiens,690,CHEMBL245-1
+chrna7,CHEMBL2492,Ki,B,ion_channel,"Neuronal acetylcholine receptor protein alpha-7 subunit",Homo sapiens,357,CHEMBL2492-1
+cnr2,CHEMBL253,Ki,B,gpcr,"Cannabinoid CB2 receptor",Homo sapiens,881,CHEMBL253-1
+adora2b,CHEMBL255,Ki,B,gpcr,"Adenosine A2b receptor",Homo sapiens,861,CHEMBL255-1
+mc4r,CHEMBL259,Ki,B,gpcr,"Melanocortin receptor 4",Homo sapiens,925,CHEMBL259-1
+hrh3,CHEMBL264,Ki,B,gpcr,"Histamine H3 receptor",Homo sapiens,723,CHEMBL264-1
+f11,CHEMBL2820,Ki,B,protease,"Coagulation factor XI",Homo sapiens,585,CHEMBL2820-1
+sigmar1,CHEMBL287,Ki,B,other,"Sigma opioid receptor",Homo sapiens,407,CHEMBL287-1
+ctss,CHEMBL2954,Ki,B,protease,"Cathepsin S",Homo sapiens,371,CHEMBL2954-1
+htr7,CHEMBL3155,Ki,B,gpcr,"Serotonin 7 (5-HT7) receptor",Homo sapiens,301,CHEMBL3155-1
+grm5,CHEMBL3227,Ki,B,gpcr,"Metabotropic glutamate receptor 5",Homo sapiens,307,CHEMBL3227-1
+ca14,CHEMBL3510,Ki,B,enzyme,"Carbonic anhydrase XIV",Homo sapiens,393,CHEMBL3510-1
+ca4,CHEMBL3729,Ki,B,enzyme,"Carbonic anhydrase IV",Homo sapiens,364,CHEMBL3729-1
+prss1_bovine,CHEMBL3769,Ki,B,protease,"Trypsin I",Bos taurus,627,CHEMBL3769-1
+ctsl,CHEMBL3837,Ki,B,protease,"Cathepsin L",Homo sapiens,498,CHEMBL3837-1
+tmem97_rat,CHEMBL4105864,Ki,B,other,"Sigma intracellular receptor 2",Rattus norvegicus,396,CHEMBL4105864-1
+ghsr,CHEMBL4616,Ki,B,gpcr,"Ghrelin receptor",Homo sapiens,434,CHEMBL4616-1
+bcl2,CHEMBL4860,Ki,B,other,"Apoptosis regulator Bcl-2",Homo sapiens,694,CHEMBL4860-1
+ptgdr2,CHEMBL5071,Ki,B,gpcr,"G protein-coupled receptor 44",Homo sapiens,690,CHEMBL5071-1
+gabra5,CHEMBL5112,Ki,B,ion_channel,"GABA receptor alpha-5 subunit",Homo sapiens,386,CHEMBL5112-1

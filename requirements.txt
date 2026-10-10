@@ -1,0 +1,8 @@
+numpy>=1.24,<3
+scipy>=1.10,<2
+pandas>=2.0,<3
+scikit-learn>=1.2,<2
+lightgbm>=4,<5
+rdkit>=2022.09
+PyYAML>=6,<7
+matplotlib>=3.7,<4

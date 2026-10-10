@@ -1,0 +1,30 @@
+
+slug: ppard
+name: "PPARδ (peroxisome proliferator-activated receptor delta)"
+chembl_target_id: CHEMBL3979
+uniprot: null
+
+endpoint: EC50
+label_column: pchembl_mean
+
+source: chembl_export
+
+paths:
+  chembl_export: data/chembl_exports/ppard.csv
+  curated_csv: null
+
+curation:
+  assay_types: [B]
+  require_exact_relation: true
+  max_pchembl_std: 1.0
+  min_observations: 1
+  organism: "Homo sapiens"
+  drop_validity_flagged: true
+  exclude_assay_regex: null
+
+cutpoints: [2019, 2020, 2021]
+
+protein_sequence: null
+
+notes: |
+  Target-specific curation metadata.

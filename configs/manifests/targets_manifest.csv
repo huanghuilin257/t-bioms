@@ -1,0 +1,22 @@
+
+slug,chembl_id,endpoint,assay_types,family,name,n_activities,year_min,year_max
+ppara,CHEMBL239,EC50,auto,nuclear_receptor,PPARα (peroxisome proliferator-activated receptor alpha),3080,1998,2025
+ppard,CHEMBL3979,EC50,auto,nuclear_receptor,PPARδ (peroxisome proliferator-activated receptor delta),1927,1999,2025
+ar,CHEMBL1871,IC50,auto,nuclear_receptor,Androgen receptor,3585,1996,2025
+abl1,CHEMBL1862,IC50,auto,kinase,ABL1 tyrosine kinase,4158,1995,2025
+adora2a,CHEMBL251,Ki,auto,gpcr,Adenosine A2a receptor,6575,1989,2025
+f2,CHEMBL204,Ki,auto,protease,Thrombin (coagulation factor II),4003,1978,2025
+ache,CHEMBL220,IC50,auto,enzyme,Acetylcholinesterase,7275,1986,2025
+kcnh2,CHEMBL240,IC50,auto,ion_channel,hERG (KCNH2 potassium channel),11709,1995,2025
+esr1,CHEMBL206,IC50,auto,nuclear_receptor,Estrogen receptor alpha,5935,1999,2025
+nr3c1,CHEMBL2034,IC50,auto,nuclear_receptor,Glucocorticoid receptor,3376,1991,2024
+egfr,CHEMBL203,IC50,auto,kinase,EGFR,19378,1989,2025
+kdr,CHEMBL279,IC50,auto,kinase,VEGFR2 / KDR,13091,1999,2025
+pik3ca,CHEMBL4005,IC50,auto,kinase,PI3K alpha (p110alpha),7912,2004,2025
+oprm1,CHEMBL233,Ki,auto,gpcr,mu-opioid receptor,6787,1989,2025
+drd2,CHEMBL217,Ki,auto,gpcr,Dopamine D2 receptor,11957,1988,2025
+htr2a,CHEMBL224,Ki,auto,gpcr,Serotonin 5-HT2A receptor,6323,1994,2025
+f10,CHEMBL244,Ki,auto,protease,Coagulation factor X (factor Xa),4125,1995,2025
+hdac1,CHEMBL325,IC50,auto,enzyme,Histone deacetylase 1,10355,2001,2025
+bace1,CHEMBL4822,IC50,auto,enzyme,Beta-secretase 1 (BACE1),12721,2002,2025
+

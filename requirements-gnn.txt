@@ -1,0 +1,6 @@
+# Install this file in addition to requirements.txt only when reproducing the
+# graph-network analyses reported in the Supporting Information.
+torch==2.6.0
+torch-geometric==2.8.0.post1
+chemprop==2.3.1
+

@@ -1,0 +1,30 @@
+
+slug: htr2a
+name: "Serotonin 5-HT2A receptor"
+chembl_target_id: CHEMBL224
+uniprot: null
+
+endpoint: Ki
+label_column: pchembl_mean
+
+source: chembl_export
+
+paths:
+  chembl_export: data/chembl_exports/htr2a.csv
+  curated_csv: null
+
+curation:
+  assay_types: [B]
+  require_exact_relation: true
+  max_pchembl_std: 1.0
+  min_observations: 1
+  organism: "Homo sapiens"
+  drop_validity_flagged: true
+  exclude_assay_regex: null
+
+cutpoints: [2017, 2018, 2019, 2020, 2021, 2022, 2023]
+
+protein_sequence: null
+
+notes: |
+  Target-specific curation metadata.

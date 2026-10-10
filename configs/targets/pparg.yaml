@@ -1,0 +1,21 @@
+
+slug: pparg
+name: "PPARγ (peroxisome proliferator-activated receptor gamma)"
+chembl_target_id: CHEMBL235
+uniprot: P37231
+
+endpoint: EC50
+label_column: pchembl_mean
+
+source: curated_csv
+
+paths:
+  curated_csv: data/experiment/EC50_F_data/curated_v2/EC50_final_data.csv
+  chembl_export: data/chembl235.csv
+
+cutpoints: [2015, 2016, 2017, 2018, 2019, 2020, 2021]
+
+protein_sequence: null
+
+notes: |
+  Target-specific curation metadata.

@@ -1,0 +1,65 @@
+
+defaults:
+  dmpnn:
+    depth: 3
+    message_hidden_dim: 300
+    ffn_num_layers: 2
+    ffn_hidden_dim: 300
+    dropout: 0.0
+    max_lr: 0.001
+    batch_size: 64
+    epochs: 50
+
+  attentivefp:
+    hidden_channels: 200
+    num_layers: 3
+    num_timesteps: 2
+    dropout: 0.0
+    lr: 0.001
+    weight_decay: 0.00001
+    batch_size: 64
+    epochs: 100
+
+  gin:
+    hidden_channels: 300
+    num_layers: 5
+    dropout: 0.5
+    lr: 0.001
+    weight_decay: 0.0
+    batch_size: 64
+    epochs: 100
+
+
+grid:
+  dmpnn:
+    depth: [2, 3, 5]
+    message_hidden_dim: [150, 300, 600]
+    ffn_num_layers: [1, 2, 3]
+    dropout: [0.0, 0.1, 0.3]
+    max_lr: [0.0003, 0.001, 0.003]
+    epochs: [30, 50, 100]
+
+  attentivefp:
+    hidden_channels: [100, 200, 400]
+    num_layers: [2, 3, 4]
+    num_timesteps: [1, 2, 3]
+    dropout: [0.0, 0.2, 0.5]
+    lr: [0.0003, 0.001, 0.003]
+    epochs: [50, 100, 200]
+
+  gin:
+    hidden_channels: [150, 300, 600]
+    num_layers: [3, 5, 8]
+    dropout: [0.2, 0.5, 0.7]
+    lr: [0.0003, 0.001, 0.003]
+    epochs: [50, 100, 200]
+
+early_stopping: false
+
+
+run:
+  device: cuda
+  protocols: [random_holdout, scaffold_cv, temporal]
+  targets: all
+  n_grid_samples: 8
+  metrics: [spearman, kendall, enrich5, enrich10]
