@@ -58,9 +58,9 @@ data curation.
 
 ## Current status
 
-The paper-facing release package is assembled and independently audited. The
-checksum file has been verified, and one complete clean-environment
-reproduction (`ppard`) has been run successfully. Manuscript result snapshots
+The paper-facing release package is assembled and independently audited. One
+complete clean-environment reproduction (`ppard`) has been run successfully.
+Manuscript result snapshots
 are maintained separately under `../frozen_results/`; the release audit did
 not rerun all 20 targets end to end. Final manuscript figures are also
 maintained outside this code-and-data release.
@@ -92,6 +92,5 @@ remain subject to their own licenses and attribution requirements.
 
 - Confirm that the manuscript's Code/Data Availability statement uses the
   final GitHub URL or an anonymous review link as appropriate.
-- The checksum audit is complete; rerun it after any subsequent file change.
 - A complete clean-environment run for `ppard` is recorded in the local release
   audit notes outside this public package.
